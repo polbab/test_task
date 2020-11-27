@@ -1,0 +1,307 @@
+body{
+    font-size: 14px;
+    
+}
+#header {
+    
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 15px;
+}
+
+.main-news h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.news-line {
+    border-bottom: 2px dotted rgb(204, 204, 204);
+    margin-bottom: 10px;
+}
+
+.news {
+    color: blue;
+    
+}
+.header-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-region {
+    margin-right: auto;
+}
+
+.header-login .login-login {
+    margin: 0px 10px 0px 10px;
+}
+
+.header-login .login-personal {
+    margin: 0px 0px 0px 10px;
+}
+
+.news:hover{
+    color: orangered;
+}
+
+
+.title {
+    color: blue;
+    
+}  
+ .all_news {
+     
+
+ }   
+ .nav_link {
+     font-weight: bold;
+ }
+
+.ip_phone_name{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    } 
+
+.ip_phone_name:hover{
+    color:orangered ;
+    } 
+}
+.gigaset_img{
+   
+}
+.price{
+    display: flex;
+}
+.after{
+
+}
+.before{
+
+
+}
+.sale_name{
+    color: blue;
+
+}
+.sale_name:hover{
+    color: orangered;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price-after {
+    font-size: 20px;
+}
+
+.footer-product {
+    display: flex;
+    align-items: center;
+}
+
+.link-about-product {
+    margin-left: 10px;
+
+}
+
+.header-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-whatsapp {
+    color: green;
+    
+}
+
+.fa-heart {
+    color: violet;
+}
+
+.fa-refresh {
+    color: green;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #9C9C9C 0%, rgba(231, 231, 231, 0) 100%);
+    border-radius: 8px;
+}
+
+.cart i {
+    margin-right: 10px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-footer-link {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0 10px;
+    border-bottom: 1px dotted grey;
+}
+
+.cart-footer-link i {
+    margin-right: 10px;
+}
+.ten_years{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    }
+
+.ten_years span {
+    margin-top: 10px;
+}
+
+.border_use{
+    border:1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.strengths {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.our_strengths {
+    background-color:#E4E4E4;
+    padding: 25px 30px 25px 30px;
+    border-radius:7px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+.logo_img {
+  
+   height: 120px;
+   width: 120px;
+}
+.logo_logo {
+    height: 120px;
+    width: 120px;
+}
+
+.payment_img {
+    height: 100px;
+    width: 100px;
+}
+.payment {
+    font-size: 12px;
+}
+.border_in {
+    border:1px solid green;
+}
+.border_border{
+    border:1px solid red;
+    
+}
+
+.header {
+    background-color: black;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.header-stats {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.header-stats i {
+    margin-right: 10px;
+}
+
+.carousel-item .btn {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+  }
+
+.btn-light {
+    border: none;
+    box-shadow: inset 0px -5px 0px rgba(241, 87, 0, 0.25);
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn-warning {
+    background: orangered;
+    border: none;
+    box-shadow: inset 0px -5px 0px rgba(97, 36, 0, 0.25);
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.btn-warning:hover {
+    background: rgb(255, 136, 92);
+    color: white;
+}
+
+footer {
+    padding: 50px;
+    background-color: #3F3F3F;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links a {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-main {
+    margin-bottom: 50px;
+    background-color: #3F3F3F;
+}
+
+.social {
+    margin-top: 100px
+}
